@@ -1,0 +1,242 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ai-git
+ai-git.exe
+
+# Test binary, built with "go test -c"
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+coverage.html
+coverage.xml
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# Build directories
+build/
+dist/
+bin/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config.yaml
+config.yml
+.secrets
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# GoReleaser artifacts
+dist/
+
+# Test coverage
+coverage.out
+c.out
+profile.out
+
+# Benchmarks
+benchmark.txt
+
+# Release artifacts
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Docker artifacts
+.dockerignore
+
+# CI/CD artifacts
+test-results/
+reports/
+
+# Node.js (if using for tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration overrides
+config.local.yaml
+config.local.yml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.go-cache/
+
+# Documentation build artifacts
+docs/_build/
+docs/site/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated files
+*.pb.go
+*.pb.gw.go
+
+# Air live reload
+.air.toml
+tmp/
+
+# Delve debugger
+debug
+__debug_bin
+
+# GoLand
+.idea/
+
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local development certificates
+*.crt
+*.cert
+*.p12
+
+# API keys and tokens (additional safety)
+*api_key*
+*token*
+*secret*
+
+# Local scripts
+local/
+scripts/local/
+
+# Profiling data
+*.prof
+*.pprof
+
+# Race detector output
+race.*
+
+# Fuzzing data
+fuzz/
+
+# Local AI model files
+models/
+*.model
+
+# Homebrew formula (if generated locally)
+Formula/
+
+# Chocolatey package files (if generated locally)
+*.nupkg
+*.nuspec.bak
+
+# Snap package files
+*.snap
+squashfs-root/
+
+# AppImage files
+*.AppImage
+
+# Local Docker volumes
+docker-data/
+
+# Kubernetes local configs
+*.kubeconfig
+
+# Terraform state files (if using infrastructure as code)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local documentation builds
+site/
+
+# Local testing directories
+test-repos/
+test-workspace/
+
+# Performance test results
+*.bench
+
+# Git hooks (local)
+.git/hooks/local*
+
+# Local examples that might contain sensitive data
+examples/local/
+examples/*.local.*
+
+# Crash dumps
+crash.log
+*.dmp
+
+# Memory dumps
+heapdump*
+*.hprof
+
+# Core dumps
+core.*
+
+# Local workspace
+workspace/
